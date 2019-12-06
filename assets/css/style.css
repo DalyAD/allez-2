@@ -35,9 +35,9 @@
   color: #fff;
 }
 
-.jumbotron .first {
+.first {
   background-attachment: fixed;
-  background-image: url(../assets/images/1977.jpeg); 
+  background-image: url(../images/1977.jpeg);
   background-position: bottom;
   background-size: cover;
   height: 50vh;
@@ -45,3 +45,10 @@
   margin-bottom: 0px;
   z-index: 1;
 }
+
+.jumbotron {
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+}
+
