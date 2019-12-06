@@ -38,8 +38,12 @@
   background-color: #aa1718;
 }
 
-.navbar-custom a {
-  color: #fff;
+.bg-custom {
+  color: #fff !important;
+}
+
+.navbar-light a {
+  color: #fff !important;
 }
 
 .first {
@@ -79,5 +83,3 @@ body {
   -1px 1px 0 #000,
   1px 1px 0 #000;
 }
-
-.navbar-nav > li > .dropdown-menu { background-color: #FFffff; }
