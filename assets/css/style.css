@@ -1,13 +1,12 @@
 /*Global*/
 
-
-
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 30px;
   background-color: #aa1718;
+  z-index: 1;
 }
 
 /*page 1 styling*/
@@ -31,7 +30,6 @@
 }
 
 .jumbotron {
-  margin-top: 15px;
 }
 
 .navbar {
@@ -46,23 +44,29 @@
   color: #fff !important;
 }
 
+
 .first {
-  background-attachment: scroll;
-  background-image: url(../images/1977.jpeg);
-  background-position: bottom;
-  background-size: cover;
-  height: 50vh;
-  width: 100vw;
-  margin-bottom: 0px;
-  z-index: 1;
-}
+    background-attachment: scroll;
+    background-image: url(../images/1977.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+ }
 
-.jumbotron {
-  width: 80vw;
-  margin: auto;
-  margin-top: 20px;
-}
 
+.second {
+    background-attachment: scroll;
+    background-image: url(../images/1977.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+ }
 
 body {
   background-attachment: fixed;
@@ -94,4 +98,14 @@ body {
   .second {
     margin: 10px;
   }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
 }
