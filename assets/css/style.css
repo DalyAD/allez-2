@@ -83,3 +83,15 @@ body {
   -1px 1px 0 #000,
   1px 1px 0 #000;
 }
+
+@media (min-width:992px) {
+  .first {
+    margin: 10px;
+  }
+}
+
+@media (min-width:992px) {
+  .second {
+    margin: 10px;
+  }
+}
