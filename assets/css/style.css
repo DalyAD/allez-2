@@ -29,8 +29,7 @@
   1px 1px 0 #000;
 }
 
-.jumbotron {
-}
+.jumbotron {}
 
 .navbar {
   background-color: #aa1718;
@@ -46,27 +45,27 @@
 
 
 .first {
-    background-attachment: scroll;
-    background-image: url(../images/1977.jpeg);
-    background-position: bottom;
-    background-size: cover;
-    height: 50vh;
-    width: 100vw;
-    margin-bottom: 0px;
-    z-index: 1;
- }
+  background-attachment: scroll;
+  background-image: url(../images/1977.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 50vh;
+  width: 95%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
 
 
 .second {
-    background-attachment: scroll;
-    background-image: url(../images/1977.jpeg);
-    background-position: bottom;
-    background-size: cover;
-    height: 50vh;
-    width: 100vw;
-    margin-bottom: 0px;
-    z-index: 1;
- }
+  background-attachment: scroll;
+  background-image: url(../images/1977.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 50vh;
+  width: 95%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
 
 body {
   background-attachment: fixed;
@@ -90,22 +89,21 @@ body {
 
 @media (min-width:992px) {
   .first {
-    margin: 10px;
+    margin-top: 20px;
+    width: 45vw;
+    float: right;
   }
 }
 
 @media (min-width:992px) {
   .second {
-    margin: 10px;
+    margin-top: 20px;
+    width: 45vw;
+    float: left;
   }
 }
 
 body {
   padding: 0;
   margin: 0;
-}
-
-.row {
-  display: flex;
-  flex-wrap: nowrap;
 }
