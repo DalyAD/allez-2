@@ -9,6 +9,11 @@
   z-index: 1;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 /*page 1 styling*/
 
 .welcome {
@@ -43,6 +48,7 @@
   color: #fff !important;
 }
 
+/*Jumbotron styling*/
 
 .first {
   background-attachment: scroll;
@@ -67,6 +73,63 @@
   z-index: 1;
 }
 
+.third {
+  background-attachment: scroll;
+  background-image: url(../images/1977.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 50vh;
+  width: 95%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+.fourth {
+  background-attachment: scroll;
+  background-image: url(../images/1977.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 50vh;
+  width: 95%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+.fifth {
+  background-attachment: scroll;
+  background-image: url(../images/1977.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 50vh;
+  width: 95%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+.sixth {
+  background-attachment: scroll;
+  background-image: url(../images/1977.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 50vh;
+  width: 95%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+.end {
+  background-attachment: scroll;
+  background-image: url(../images/1977.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 50vh;
+  width: 95%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+/*main background*/
+
 body {
   background-attachment: fixed;
   background-image: url(../images/crest2.jpg);
@@ -87,6 +150,8 @@ body {
   1px 1px 0 #000;
 }
 
+/*desktop*/
+
 @media (min-width:992px) {
   .first {
     margin-top: 20px;
@@ -103,7 +168,98 @@ body {
   }
 }
 
-body {
-  padding: 0;
-  margin: 0;
+@media (min-width:992px) {
+  .third {
+    margin-top: 20px;
+    width: 45vw;
+    float: right;
+  }
+}
+
+@media (min-width:992px) {
+  .fourth {
+    margin-top: 20px;
+    width: 45vw;
+    float: left;
+  }
+}
+
+@media (min-width:992px) {
+  .fifth {
+    margin-top: 20px;
+    width: 45vw;
+    float: right;
+  }
+}
+
+@media (min-width:992px) {
+  .sixth {
+    margin-top: 20px;
+    width: 45vw;
+    float: left;
+  }
+}
+
+@media (min-width:992px) {
+  .end {
+    margin-top: 20px;
+    width: 90vw;
+    position: static;
+  }
+}
+
+
+/*mobile margins*/
+
+@media (max-width:992px) {
+  .first {
+    margin-top: 20px;
+  }
+  
+}
+
+@media (max-width:992px) {
+  .second {
+    margin-top: 20px;
+  }
+  
+}
+
+@media (max-width:992px) {
+  .third {
+    margin-top: 20px;
+  }
+  
+}
+
+@media (max-width:992px) {
+  .fourth {
+    margin-top: 20px;
+  }
+  
+}
+
+@media (max-width:992px) {
+  .fifth {
+    margin-top: 20px;
+  }
+  
+}
+
+@media (max-width:992px) {
+  .sixth {
+    margin-top: 20px;
+  }
+  
+}
+
+@media (max-width:992px) {
+  .end {
+    margin-top: 20px;
+  }
+  
+}
+
+.first {
+  overflow-wrap: break-word;
 }
