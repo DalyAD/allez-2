@@ -13,15 +13,54 @@ body {
   padding: 0;
   margin: 0;
 }
+/*index.html styling*/
 
-/*page 1 styling*/
+@media (max-width:992px){
+  .welcome {
+    margin-left: 15px;
+  }
+}
+
+.welcometext {
+  padding: 20px;
+}
+
+.lead {
+  padding-top: 10px;
+  text-align: left;
+}
 
 .welcome {
-  background-color: #e84610 !important;
+  background-attachment: scroll;
+  background-image: url(../images/1977.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 50vh;
+  width: 95%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+.welcome {
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+.welcome {
+  height: 80vh;
+  width: 90vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*page1.html styling*/
+
+.welcome {
+  background-color: #e84610(232, 70, 16, 0.62) !important;
 }
 
 .jumbotron {
-  background-color: #e84610 !important;
+  background-color: rgba(232, 70, 16, 0.62) !important;
 }
 
 .lead {
@@ -204,7 +243,7 @@ body {
   .end {
     margin-top: 20px;
     width: 90vw;
-    position: static;
+    position: relative0;
   }
 }
 
@@ -215,51 +254,48 @@ body {
   .first {
     margin-top: 20px;
   }
-  
+
 }
 
 @media (max-width:992px) {
   .second {
     margin-top: 20px;
   }
-  
+
 }
 
 @media (max-width:992px) {
   .third {
     margin-top: 20px;
   }
-  
+
 }
 
 @media (max-width:992px) {
   .fourth {
     margin-top: 20px;
   }
-  
+
 }
 
 @media (max-width:992px) {
   .fifth {
     margin-top: 20px;
   }
-  
+
 }
 
 @media (max-width:992px) {
   .sixth {
     margin-top: 20px;
   }
-  
+
 }
 
 @media (max-width:992px) {
   .end {
     margin-top: 20px;
   }
-  
+
 }
 
-.first {
-  overflow-wrap: break-word;
-}
