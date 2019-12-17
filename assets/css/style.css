@@ -126,11 +126,8 @@ body {
 .fourth {
   background-attachment: scroll;
   background-image: url(../images/1977.jpeg);
-  background-position: bottom;
   background-size: cover;
-  height: 50vh;
-  width: 95%;
-  margin-bottom: 0px;
+  min-height: 50vh;
   z-index: 1;
 }
 
@@ -192,18 +189,14 @@ body {
 /*desktop*/
 
 @media (min-width:992px) {
-  .first {
+  .fourth {
     margin-top: 20px;
-    width: 45vw;
-    float: right;
   }
 }
 
 @media (min-width:992px) {
-  .second {
+  .fourth {
     margin-top: 20px;
-    width: 45vw;
-    float: left;
   }
 }
 
@@ -218,8 +211,6 @@ body {
 @media (min-width:992px) {
   .fourth {
     margin-top: 20px;
-    width: 45vw;
-    float: left;
   }
 }
 
@@ -243,7 +234,6 @@ body {
   .end {
     margin-top: 20px;
     width: 90vw;
-    float: left;
   }
 }
 
