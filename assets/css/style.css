@@ -159,7 +159,6 @@ body {
   background-position: bottom;
   background-size: cover;
   height: 50vh;
-  width: 95%;
   margin-bottom: 0px;
   z-index: 1;
 }
@@ -233,7 +232,6 @@ body {
 @media (min-width:992px) {
   .end {
     margin-top: 20px;
-    width: 90vw;
   }
 }
 
@@ -289,3 +287,13 @@ body {
 
 }
 
+.wrapper {
+  padding: 30px;
+}
+
+@media (max-width:992px) {
+  .wrapper {
+    padding: 0px;
+  }
+
+}
