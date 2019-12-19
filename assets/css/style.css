@@ -1,28 +1,30 @@
-/*Global*/
-
 .footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  height: 30px;
+  text-align: left;
+  color: #fff;
+  width: 100vw;
+  height: 25px;
   background-color: #aa1718;
   z-index: 1;
+  float: left;
 }
 
 body {
   padding: 0;
   margin: 0;
 }
-/*index.html styling*/
 
-@media (max-width:992px){
-  .welcome {
-    margin-left: 15px;
-  }
-}
+/*index.html styling*/
 
 .welcometext {
   padding: 20px;
+  color: white;
+  font-size: 20px;
+  text-shadow: 0.03em 0 black,
+  0 0.03em black,
+  -0.03em 0 black,
+  0 -0.03em black;
 }
 
 .lead {
@@ -30,9 +32,21 @@ body {
   text-align: left;
 }
 
+.layer {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
 .welcome {
   background-attachment: scroll;
-  background-image: url(../images/1977.jpeg);
+  background-image: url(../images/anfield.jpg);
   background-position: bottom;
   background-size: cover;
   height: 50vh;
@@ -42,8 +56,8 @@ body {
 }
 
 .welcome {
-  overflow-y:auto;
-  overflow-x:hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .welcome {
@@ -53,7 +67,7 @@ body {
   margin-bottom: 20px;
 }
 
-/*page1.html styling*/
+/*color*/
 
 .welcome {
   background-color: #e84610(232, 70, 16, 0.62) !important;
@@ -63,20 +77,24 @@ body {
   background-color: rgba(232, 70, 16, 0.62) !important;
 }
 
-.lead {
-  font-family: Arial;
-  color: #fff;
-  font-size: 20px !important;
-  text-shadow: -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
+.display-4 {
+  color: #aa1718;
+  padding: 10px 0px 0px 20px;
+  
+  font-family: 'Oswald', sans-serif;
 }
 
-.jumbotron {}
+.lead {
+  color: #fff;
+  font-size: 22px !important;
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
 
 .navbar {
   background-color: #aa1718;
+  font-family: 'Inria Serif', serif;
 }
 
 .bg-custom {
@@ -87,7 +105,7 @@ body {
   color: #fff !important;
 }
 
-/*Jumbotron styling*/
+/*card styling*/
 
 .first {
   background-attachment: scroll;
@@ -100,10 +118,9 @@ body {
   z-index: 1;
 }
 
-
 .second {
   background-attachment: scroll;
-  background-image: url(../images/1977.jpeg);
+  background-image: url(../images/1978.jpg);
   background-position: bottom;
   background-size: cover;
   height: 50vh;
@@ -114,7 +131,7 @@ body {
 
 .third {
   background-attachment: scroll;
-  background-image: url(../images/1977.jpeg);
+  background-image: url(../images/1981.jpg);
   background-position: bottom;
   background-size: cover;
   height: 50vh;
@@ -125,15 +142,18 @@ body {
 
 .fourth {
   background-attachment: scroll;
-  background-image: url(../images/1977.jpeg);
+  background-image: url(../images/1984.jpg);
+  background-position: bottom;
   background-size: cover;
-  min-height: 50vh;
+  height: 50vh;
+  width: 95%;
+  margin-bottom: 0px;
   z-index: 1;
 }
 
 .fifth {
   background-attachment: scroll;
-  background-image: url(../images/1977.jpeg);
+  background-image: url(../images/2005.jpg);
   background-position: bottom;
   background-size: cover;
   height: 50vh;
@@ -144,7 +164,7 @@ body {
 
 .sixth {
   background-attachment: scroll;
-  background-image: url(../images/1977.jpeg);
+  background-image: url(../images/2019.jpg);
   background-position: bottom;
   background-size: cover;
   height: 50vh;
@@ -155,7 +175,7 @@ body {
 
 .end {
   background-attachment: scroll;
-  background-image: url(../images/1977.jpeg);
+  background-image: url(../images/ynwa2.jpeg);
   background-position: bottom;
   background-size: cover;
   height: 50vh;
@@ -163,7 +183,7 @@ body {
   z-index: 1;
 }
 
-/*main background*/
+/*main background image*/
 
 body {
   background-attachment: fixed;
@@ -177,118 +197,43 @@ body {
   z-index: 1;
 }
 
-.display-4 {
-  color: #dd2a28;
-  text-shadow: -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
-}
-
 /*desktop*/
 
 @media (min-width:992px) {
-  .fourth {
+  .desktopalign {
     margin-top: 20px;
-  }
-}
-
-@media (min-width:992px) {
-  .fourth {
-    margin-top: 20px;
-  }
-}
-
-@media (min-width:992px) {
-  .third {
-    margin-top: 20px;
-    width: 45vw;
-    float: right;
-  }
-}
-
-@media (min-width:992px) {
-  .fourth {
-    margin-top: 20px;
-  }
-}
-
-@media (min-width:992px) {
-  .fifth {
-    margin-top: 20px;
-    width: 45vw;
-    float: right;
-  }
-}
-
-@media (min-width:992px) {
-  .sixth {
-    margin-top: 20px;
-    width: 45vw;
-    float: left;
+    margin-left: 20px;
   }
 }
 
 @media (min-width:992px) {
   .end {
-    margin-top: 20px;
+    margin: 20px 15px 20px 20px;
   }
 }
 
 
-/*mobile margins*/
+/*mobile*/
 
 @media (max-width:992px) {
-  .first {
-    margin-top: 20px;
+  .cardalign {
+    margin: 10px 0px 0px 7.5px;
   }
-
-}
-
-@media (max-width:992px) {
-  .second {
-    margin-top: 20px;
-  }
-
-}
-
-@media (max-width:992px) {
-  .third {
-    margin-top: 20px;
-  }
-
-}
-
-@media (max-width:992px) {
-  .fourth {
-    margin-top: 20px;
-  }
-
-}
-
-@media (max-width:992px) {
-  .fifth {
-    margin-top: 20px;
-  }
-
-}
-
-@media (max-width:992px) {
-  .sixth {
-    margin-top: 20px;
-  }
-
 }
 
 @media (max-width:992px) {
   .end {
-    margin-top: 20px;
+    margin: 10px 0px 0px 7.5px;
   }
-
 }
 
-.wrapper {
-  padding: 30px;
+/*wrapper*/
+
+@media (min-width:992px) {
+  .wrapper {
+    padding: 30px;
+    margin-right: 10px;
+  }
 }
 
 @media (max-width:992px) {
@@ -296,4 +241,12 @@ body {
     padding: 0px;
   }
 
+}
+
+/*welcome*/
+
+@media (max-width:992px) {
+  .welcome {
+    margin-left: 15px;
+  }
 }
