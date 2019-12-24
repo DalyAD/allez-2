@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Biryani:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 .footer {
   bottom: 0;
@@ -8,6 +9,13 @@
   height: 25px;
   background-color: #aa1718;
   z-index: 1;
+}
+
+.contacttext {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 3px 3px #000;
 }
 
 .col{
@@ -39,7 +47,7 @@
 .layerindex {
     padding: 0px;
     margin: 0px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: static;
     top: 0;
     left: 0;
@@ -51,7 +59,7 @@
 .layerthesix {
     padding: 0px;
     margin: 0px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: static;
     top: 0;
     left: 0;
