@@ -11,11 +11,14 @@
   z-index: 1;
 }
 
+.modal-content{
+ color: #000;
+}
+
 .contacttext {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 20px;
-    text-shadow: 3px 3px #000;
 }
 
 .col{
@@ -47,7 +50,7 @@
 .layerindex {
     padding: 0px;
     margin: 0px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     position: static;
     top: 0;
     left: 0;
@@ -59,7 +62,7 @@
 .layerthesix {
     padding: 0px;
     margin: 0px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     position: static;
     top: 0;
     left: 0;
@@ -282,8 +285,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
   margin-bottom: 0px;
   z-index: 1;
 }
