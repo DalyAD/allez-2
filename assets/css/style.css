@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Biryani:900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/*Global*/
+
+.col{
+    padding: 0 0 0 0 !important;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.lead {
+  padding-top: 10px;
+  text-align: left;
+}
+
 .footer {
   bottom: 0;
   text-align: left;
@@ -11,8 +26,22 @@
   z-index: 1;
 }
 
-.modal-content{
- color: #000;
+/*fonts*/
+
+.display-4 {
+  color: #aa1718;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 20px 0px 20px;
+ font-family: 'Biryani', sans-serif;
+}
+
+.lead {
+  color: #fff;
+  font-size: 16px !important;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 .contacttext {
@@ -21,31 +50,13 @@
     font-size: 20px;
 }
 
-.col{
-    padding: 0 0 0 0 !important;
+.footer {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 16px;
 }
 
-.nopadding {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-/*index.html styling*/
-
-.welcometext {
-  padding: 20px;
-  color: white;
-  font-size: 20px;
-  text-shadow: 0.03em 0 black,
-  0 0.03em black,
-  -0.03em 0 black,
-  0 -0.03em black;
-}
-
-.lead {
-  padding-top: 10px;
-  text-align: left;
-}
+/*index.html*/
 
 .layerindex {
     padding: 0px;
@@ -56,18 +67,6 @@
     left: 0;
     width: auto;
     height: auto;
-    border-radius: 3px;
-}
-
-.layerthesix {
-    padding: 0px;
-    margin: 0px;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: static;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: fit-content;
     border-radius: 3px;
 }
 
@@ -82,6 +81,37 @@
   z-index: 1;
 }
 
+/*index.html styling*/
+
+.welcometext {
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  text-shadow: 0.03em 0 black,
+  0 0.03em black,
+  -0.03em 0 black,
+  0 -0.03em black;
+}
+
+.thesix {
+  border-radius: 3px;
+  background-attachment: scroll;
+  background-image: url(../images/cltrophy.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: fit-content;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+.linktosix{
+ margin-bottom: 20px;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
 .welcome {
   height: 60vh;
   width: 100%;
@@ -89,53 +119,38 @@
   margin-bottom: 20px;
 }
 
+/*thesix.html*/
+
+.layerthesix {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    border-radius: 3px;
+}
+
+/*contact.html*/
+
+.layercontact {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: static;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: fit-content;
+    border-radius: 3px;
+}
+
 /*color*/
 
 .welcome {
   background-color: #e84610(232, 70, 16, 0.62) !important;
-}
-
-.linktosix{
- margin-bottom: 20px;
-}
-
-.thesix {
-  background-attachment: scroll;
-  background-image: url(../images/cltrophy.jpg);
-  background-position: bottom;
-  background-size: cover;
-  width: 95%;
-  margin-bottom: 0px;
-  z-index: 1;
-}
-
-.linktothesix {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.btn {
-    margin-bottom: 10px;
-}
-
-.thesix {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.display-4 {
-  color: #aa1718;
-  text-align: center;
-  padding: 20px 20px 0px 20px;
- font-family: 'Biryani', sans-serif;
-}
-
-.lead {
-  color: #fff;
-  font-size: 22px !important;
-  padding: 10px;
-  font-family: 'Biryani', sans-serif;
-  text-align: center;
 }
 
 .navbar {
@@ -150,9 +165,23 @@
 .navbar-light a {
   color: #fff !important;
 }
+
+.btn-danger {
+    background-color: #aa1718 !important;
+}
 /*scrollbars*/
 
 body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.thesix {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.linktothesix {
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -289,7 +318,7 @@ body {
   z-index: 1;
 }
 
-/*desktop*/
+/*desktop media queries*/
 
 @media (min-width:992px) {
   .desktopalign {
@@ -305,7 +334,7 @@ body {
 }
 
 
-/*mobile*/
+/*mobile media queries*/
 
 @media (max-width:992px) {
   .cardalign {
