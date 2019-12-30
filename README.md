@@ -1,7 +1,7 @@
 Liverpool The Six 
 Milestone One Project: User-Centric Frontend Development - Code Institute
 
-This is my website detailing hte success of Liverpool Football Club in Europe. It includes a welcome page with a welcome section and an introduction box with a link to the main page. On the second page I have made a card system with information on each cup. And finally I have a contact form at the end with a modal once the suibmit button is triggered.
+This is my website detailing the success of Liverpool Football Club in Europe. It includes a welcome page with a welcome section and an introduction box with a link to the main page. On the second page I have made a card system with information on each cup. And finally I have a contact form at the end with a modal once the suibmit button is triggered.
 
 UX
 User stories
@@ -31,7 +31,7 @@ HTML
 CSS
 Bootstrap (4.1)
 Features
-The navbar I got from bootstrap is set to collapse to a dropdown menu when reduced below 992px.
+The navbar I got from bootstrap is set to collapse to a drexcioopdown menu when reduced below 992px.
 
 Features Left to Implement
 In the future I would like to create a more interatvie and flowing carousel style for the middle page "The Six".
