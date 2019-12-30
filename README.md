@@ -6,6 +6,8 @@ This is my website detailing the success of Liverpool Football Club in Europe. I
  
 UX User stories As a football enthusiast I expect to see results on games and team information. I have included wireframes for this project for desktop and for mobile. I intended to create wireframes for tablet also however during the design phase the desired layout for tablet was achieved without using a wireframe prior to completion. All layout and responsiveness was as expected.
 
+Wireframes can be found in my repository under the filename "milestone1.bmpr"
+
 ## Features
 
 Strategy My goal in the design was to make exciting for the user to experience the story of each match.
